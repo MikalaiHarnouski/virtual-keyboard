@@ -373,6 +373,8 @@ kb.addEventListener('mouseup', (e) => {
             shiftDeactivate();
         }
     }
+
+    textarea.focus();
 });
 
 kb.addEventListener('mouseout', (e) => {
@@ -437,4 +439,6 @@ document.addEventListener('keyup', (e) => {
             shiftDeactivate();
         }
     }
+
+    textarea.focus();
 });
