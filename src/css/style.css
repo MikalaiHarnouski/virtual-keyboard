@@ -1,0 +1,114 @@
+.content {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 700px;
+    height: 200px;
+    font-size: 16px;
+    color: black;
+}
+
+.kb {
+    margin: 0px auto;
+    padding: 10px;
+    width: 700px;
+    font-size: 16px;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 8px;
+}
+
+.kb .kb-row {
+    clear: both;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 6px;
+}
+
+.kb .key {
+    float: left;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 2px;
+    border-radius: 2px;
+    background-color: #0c0d0d;
+    text-align: center;
+    color: white;
+    border: 2.5px solid #0c0d0d;
+    cursor: pointer;
+    user-select: none;
+    transition: border-radius 0.3s, background-color 0.3s;
+}
+
+.kb .key:hover {
+    border-color: #5b59d8;
+}
+
+.kb .key.active {
+    border-color: #5b59d8;
+    background-color: #5b59d8;
+    border-radius: 0.5rem;
+}
+
+.caseDown,
+.caseUp,
+.shiftCaps,
+.caps {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.key.Backspace,
+.key.Tab,
+.key.Delete,
+.key.CapsLock,
+.key.Enter,
+.key.ShiftLeft,
+.key.ArrowUp,
+.key.ShiftRight,
+.key.ControlLeft,
+.key.MetaLeft,
+.key.AltLeft,
+.key.AltRight,
+.key.ArrowLeft,
+.key.ArrowDown,
+.key.ArrowRight,
+.key.ControlRight {
+    background-color: #8f9090;
+    border-color: #8f9090;
+    font-weight: 600;
+}
+
+.key.Backspace,
+.key.CapsLock,
+.key.ShiftLeft {
+    width: 119px;
+}
+
+.key.Space {
+    width: 339px;
+}
+
+.key.Enter,
+.key.ShiftRight {
+    width: 79px;
+}
+
+.key.Tab,
+.key.Delete {
+    width: 55px;
+}
+
+.language {
+    text-align: center;
+    margin: 10px auto;
+}
